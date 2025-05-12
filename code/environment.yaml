@@ -1,0 +1,15 @@
+name: stat230A-final-project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - requests
+  - tqdm
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+      - jupyterlab
