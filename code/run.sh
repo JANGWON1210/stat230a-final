@@ -17,5 +17,6 @@ echo "Executing notebooks..."
 
 jupyter nbconvert --to notebook --execute --inplace Part1_Data_Engineering.ipynb
 jupyter nbconvert --to notebook --execute --inplace Part2_EDA.ipynb
+jupyter nbconvert --to notebook --execute --inplace Part3_modeling.ipynb
 
 echo "All notebooks executed successfully."
