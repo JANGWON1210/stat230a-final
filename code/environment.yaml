@@ -6,10 +6,16 @@ dependencies:
   - python=3.12
   - numpy
   - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - statsmodels
   - requests
   - tqdm
   - jupyter
   - ipykernel
+  - openpyxl
   - pip
   - pip:
       - jupyterlab

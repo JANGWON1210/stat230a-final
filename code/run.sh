@@ -16,5 +16,6 @@ conda activate stat230A-final-project
 echo "Executing notebooks..."
 
 jupyter nbconvert --to notebook --execute --inplace Part1_Data_Engineering.ipynb
+jupyter nbconvert --to notebook --execute --inplace Part1_EDA.ipynb
 
 echo "All notebooks executed successfully."
